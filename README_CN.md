@@ -46,7 +46,6 @@ export PATH="export PATH=/Volumes/Samsung-T5/sdk/flutter/fvm/3.0.0/bin:$PATH"
 
 然后，如果你使用的是 vscode/idea 自带的命令行，在开启新的窗口时，会自动寻找 .env 文件，并注入
 
-
 ## 开源许可证
 
 MIT
