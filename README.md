@@ -6,6 +6,8 @@ Support macOS.
 
 Linux should also support.
 
+[中文文档](./README_CN.md)
+
 ## Usage
 
 ### Bash
