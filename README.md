@@ -52,6 +52,32 @@ source /tmp/find_env_shell/sub1/.env
 sub1 # the log come from sub1/.env
 ```
 
+## Add file to config file
+
+Download `find_env.zsh` or `find_env.sh`
+
+zsh:
+
+```shell
+mkdir ~/shells
+curl https://raw.githubusercontent.com/CaiJingLong/find_env_shell/master/find_env.zsh > ~/shells/find_env.zsh
+echo "source ~/shells/find_env.zsh" >> ~/.zshrc
+
+source ~/.zshrc
+```
+
+sh or bash
+
+```shell
+mkdir ~/shells
+curl https://raw.githubusercontent.com/CaiJingLong/find_env_shell/master/find_env.sh > ~/shells/find_env.sh
+echo "source ~/shells/find_env.sh" >> ~/.bash_profile
+
+source ~/.bash_profile
+```
+
+If you use the method to add env to your shell, when you change your `.env` file, you just run `find_env` in your shell to refresh environment.
+
 ## License
 
 MIT Style
